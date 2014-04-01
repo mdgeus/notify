@@ -9,7 +9,7 @@ class NotifyPlugin extends MantisPlugin {
         $this->requires = array('MantisCore' => '1.2.0',);
         $this->author = 'Dennis Geus';
         $this->contact = 'Dennis@hands-off.it';
-        $this->url = '';
+        $this->url = 'https://github.com/mdgeus/notify';
     }
 
     function hooks() {
