@@ -1,0 +1,18 @@
+<?php
+    $s_plugin_notify_title = "Notify Plugin";
+    $s_plugin_notify_desc = "Notify users when an issue is reported based on project and optional custom field";
+    $s_plugin_notify_config = "Configuration";
+    $s_plugin_notify_configlink = "Notify Setup";
+    $s_plugin_notify_customfield = "Custom field";
+    $s_plugin_notify_fieldvalue = "Field value";
+    $s_plugin_notify_user = "User";
+    $s_plugin_notify_seluser = "-- Select User --";
+    $s_plugin_notify_selproject = "-- Select Project --";
+
+    $s_plugin_notify_button_save = "Save";
+    $s_plugin_notify_button_edit = "Edit";
+    $s_plugin_notify_button_add = "Add";
+    
+    $s_plugin_notify_message =  "Please, select a project first";
+    $s_plugin_notify_entryerror = "Something went wrong, Entry could not be created!";
+    $s_plugin_notify_delerror = "Something went wrong, Entry could not be removed!";
