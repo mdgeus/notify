@@ -80,7 +80,7 @@ while ($row = db_fetch_array($result)) {
                         <td><?php echo user_get_realname($row['userid']); ?></td>
                         <td> <form name="removeline" id="removeline" method="post" action="<?php echo plugin_page('config') ?>">
                                 <input type="hidden" name="lineid" value="<?php echo $row['id']; ?>" />
-                                <button name="del" id="del"><img src="<?php echo config_get('path'); ?>plugins/notify/img/glyphicons_016_bin.png" height="16" border="0" /></button>
+                                <button name="del" id="del" onclick="this.form.submit();"><img src="<?php echo config_get('path'); ?>plugins/notify/img/glyphicons_016_bin.png" height="16" border="0" /></button>
                             </form>
                         </td>
                     </tr>
